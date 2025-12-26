@@ -29,6 +29,7 @@ pipeline {
         stage("Affirmation"){
             steps{
                 echo 'Build is complete'
+                echo 'Build check'
             }
         }
     }
